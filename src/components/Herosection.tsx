@@ -4,7 +4,7 @@ import { Button } from "./ui/moving-border";
 
 function Herosection() {
   return (
-    <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
+    <div className="h-auto md:h-[43rem] w-full py-10 rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto md:py-0">
       <Spotlight />
       <div className="p-4 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
@@ -18,11 +18,7 @@ function Herosection() {
       </div>
       <div className="mt-4">
         <Link href={"/courses"}>
-          <Button
-            borderRadius="1.75rem"
-          >
-            Explore Courses
-          </Button>
+          <Button borderRadius="1.75rem">Explore Courses</Button>
         </Link>
       </div>
     </div>
